@@ -1,0 +1,88 @@
+.header__wrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color:#F8F8F9 ;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.phone {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+.phone__number {
+   color: #6C718D;
+    transition: all ease-in;
+}
+.phone__number:hover {
+    color: black;
+}
+
+.location {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    margin-left: 20px;
+    transition: all ease-in;
+}
+.location:hover path {
+    stroke: black;
+}
+a {
+  transition: all ease-in;
+  
+}
+a:hover {
+    color: black;
+}
+.location__txt {
+    color: #6C718D;
+    font-weight:400px;
+    letter-spacing: 0.5px; 
+    transition: all ease-in;
+}
+.location__txt:hover {
+    color: black;
+}
+
+.dropbtn {
+    color: #6C718D;;
+    border: none;
+    background: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #F8F8F9;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
